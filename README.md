@@ -37,9 +37,10 @@ As the list of integers is the only input, there are relatively few details that
 * **Constraints:** the list size shall be limited to 100 items. Each integer in the list shall be less than the largest integer Python's integer data type can store.
 
 #### Flowchart
-![SimulateQuickSort flowchart.]("/images/SimulateQuickSort.png")
+![SimulateQuickSort flowchart.](/SimulateQuickSort_Flowchart.png)
 
 ## Steps to Run
+
 
 ## Hugging Face Link
 
