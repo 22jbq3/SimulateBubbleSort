@@ -4,7 +4,7 @@ A simple simulation of the bubble sort algorithm on a randomly generated list of
 The bubble sort algorithm was selected because it offers a beginner-friendly introduction to sorting in performing swaps whilst iterating through a list. It provides a basis for algorithmic thinking and comprehending other sorting algorithms.
 
 ## Demonstration Screenshot
-![Bubble sort, visualized.](./media/SimulateBubbleSort_Visualization.png)
+![Bubble sort, visualized.](/SimulateBubbleSort_Visualization.png)
 
 ## Breakdown and Computational Thinking
 We briefly describe the bubble sort algorithm utilizing the four pillars of computational thinking.
@@ -36,7 +36,7 @@ As the list of integers is the only input, there are relatively few details that
 * **Constraints:** the list size shall be limited to 20 items. Each integer in the list shall be between the values of 1 and 30 (inclusive).
 
 #### Flowchart
-![SimulateBubbleSort Flowchart.](./media/SimulateBubbleSort_Flowchart.png)
+![SimulateBubbleSort Flowchart.](/SimulateBubbleSort_Flowchart.png)
 
 ## Steps to Run
 
