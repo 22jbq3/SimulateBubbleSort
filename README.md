@@ -47,7 +47,7 @@ As the list of integers is the only input, there are relatively few details that
 3. Continue to press "STEP" until the randomly generated list is completely sorted!
 
 ## Hugging Face Link
-https://huggingface.co/spaces/22jbq3/SimulateBubbleSort 
+https://huggingface.co/spaces/22jbq3/SimulateBubbleSort
 
 ## Author and Acknowledgement
 This project was created by Robbie Podrebarac, a student. It was created for CISC 121: Introduction to Computing Science I taught in Fall 2025.
