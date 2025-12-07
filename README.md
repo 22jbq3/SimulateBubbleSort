@@ -1,43 +1,42 @@
-# SimulateQuickSort
-A simple simulation of the quicksort algorithm. 
+# SimulateBubbleSort
+A simple simulation of the bubble sort algorithm on a randomly generated list of size twenty. Made with Gradio.
 
-The quicksort algorithm was selected because one seeks to better understand the algorithm's implementation and its recursive nature. This will aid in visualizing the algorithm and provide a better understanding of recursion and recursive sorting algorithms. 
+The bubble sort algorithm was selected because it offers a beginner-friendly introduction to sorting in performing swaps whilst iterating through a list. It provides a basis for algorithmic thinking and comprehending other sorting algorithms.
 
 ## Demonstration Screenshot
-[TODO!]
+![Bubble sort, visualized.](./media/SimulateBubbleSort_Visualization.png)
 
 ## Breakdown and Computational Thinking
-We briefly describe the quicksort algorithm utilizing the four pillars of computational thinking.
+We briefly describe the bubble sort algorithm utilizing the four pillars of computational thinking.
 
 ### Decomposition
 **Input Handling:** read a list of integers.
 
 **Data Processing:** 
-* The base case occurs when the input list has a length less than 2. We return this list.
-* We calculate the pivot utilizing a random value in the list.
-* We track the items in the list in a sublist that contains all items less than the pivot, all items equal to the pivot, and all items greater than the pivot.
-* We recursively call quicksort on the three sublists.
-* We return the three sublists concatenated together.
+* We begin by storing the length of the list.
+* This bubble sort implementation shall include early-exit functionality, so a `swapped = True` variable is initialized.
+* We iterate while `swapped` is `True`.
+* We begin iterating by setting  `swapped = False` (for early exit).
+* We iterate through index `0` of the list to the conclusion of the list, swapping consecutive values in the list if an item at a lower index is greater than an item at a higher index. Additionally, if this is the case, we set `swapped = True` to continue iterating through the list.
+* We note that if `swapped` is never reset to `True`, then the outer loop condition fails and we may exit the bubble sort algorithm early.
 
 **Output Display:** we return a sorted version of the input list in nondecreasing order.
 
 ### Pattern Recognition
-We notice that we can sort the list by applying the same pivoting strategy on each sublist. As such, we apply the same sorting technique (selecting a random pivot and dividing the list into sublists where all elements are less than the pivot, equal to the pivot, and greater than the pivot) and sort each of the said three sublists in the same manner (that is, selecting a pivot for each of the sublists and repeating the same dividing steps).
+We notice that we can sort the list by applying the same swapping strategy on consecutive items. As such, we apply this technique (swapping consecutive items if the lower-index item is greater in value than the next higher-index item) as we iterate through the list until all items in the list are completely sorted.
 
 ### Abstraction
-We focus on the list passed into the function and ensuring that the list becomes appropriately sorted recursively in taking into consideration its pivot. As such, we must consider each value in the list of integers and whether or not they are sorted relative to the chosen pivot.
+We focus on the list passed into the function and ensuring that it becomes sorted in nondecreasing order. As such, we must consider the values of consecutive items in the list and whether they are greater than or less than each other (the case where they are equal can belong to either of the aforementioned categories).
 
-As the list of integers is the only input, there are relatively few details that we may neglect. We may neglect details such as whether the integers are positive or negative (that is, whether the values themselves are positive or negative). 
-
-(We note that we must still consider whether some values are greater than or less than each other (and hence whether or not the list of integers is sorted), the number of values in the list, and so forth.)
+As the list of integers is the only input, there are relatively few details that we may neglect. We may neglect details such as whether the integers are already in sorted order (as this is what the bubble sort algorithm shall accomplish), and other minute details such as the parity of individual integers in the list.
 
 ### Algorithmic THinking
 * **Input:** a list of integers.
 * **Output:** the same list of integers, now sorted in nondecreasing order.
-* **Constraints:** the list size shall be limited to 100 items. Each integer in the list shall be less than the largest integer Python's integer data type can store.
+* **Constraints:** the list size shall be limited to 20 items. Each integer in the list shall be between the values of 1 and 30 (inclusive).
 
 #### Flowchart
-![SimulateQuickSort flowchart.](/SimulateQuickSort_Flowchart.png)
+![SimulateBubbleSort Flowchart.](./media/SimulateBubbleSort_Flowchart.png)
 
 ## Steps to Run
 
