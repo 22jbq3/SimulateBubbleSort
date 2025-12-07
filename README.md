@@ -6,6 +6,9 @@ The bubble sort algorithm was selected because it offers a beginner-friendly int
 ## Demonstration Screenshot
 ![Bubble sort, visualized.](/SimulateBubbleSort_Visualization.png)
 
+*Please note that we include further test cases in the Python file itself, prior to defining functions.*
+
+
 ## Breakdown and Computational Thinking
 We briefly describe the bubble sort algorithm utilizing the four pillars of computational thinking.
 
@@ -30,7 +33,7 @@ We focus on the list passed into the function and ensuring that it becomes sorte
 
 As the list of integers is the only input, there are relatively few details that we may neglect. We may neglect details such as whether the integers are already in sorted order (as this is what the bubble sort algorithm shall accomplish), and other minute details such as the parity of individual integers in the list.
 
-### Algorithmic THinking
+### Algorithmic Thinking
 * **Input:** a list of integers.
 * **Output:** the same list of integers, now sorted in nondecreasing order.
 * **Constraints:** the list size shall be limited to 20 items. Each integer in the list shall be between the values of 1 and 30 (inclusive).
@@ -39,9 +42,12 @@ As the list of integers is the only input, there are relatively few details that
 ![SimulateBubbleSort Flowchart.](/SimulateBubbleSort_Flowchart.png)
 
 ## Steps to Run
-
+1. Navigate to the below Hugging Face Link.
+2. Press the "STEP" button to see individual steps/swaps that occur in bubble sort.
+3. Continue to press "STEP" until the randomly generated list is completely sorted!
 
 ## Hugging Face Link
+
 
 ## Author and Acknowledgement
 This project was created by Robbie Podrebarac, a student. It was created for CISC 121: Introduction to Computing Science I taught in Fall 2025.
