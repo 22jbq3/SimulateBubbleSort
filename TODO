@@ -1,8 +1,0 @@
-- Fix the graph...
-  - Ensure that you can enter a custom list.
-  - Fix the graph's UI (remove numerical values, perhaps)?
-
-- Implement the sorting visualization (somehow...)
-  - Create separate graphs for each pivot?
-
-- Perhaps consider starting from scratch with BubbleSort to simplify the animation...
