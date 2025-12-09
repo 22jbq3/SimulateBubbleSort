@@ -33,6 +33,10 @@ We focus on the list passed into the function and ensuring that it becomes sorte
 
 As the list of integers is the only input, there are relatively few details that we may neglect. We may neglect details such as whether the integers are already in sorted order (as this is what the bubble sort algorithm shall accomplish), and other minute details such as the parity of individual integers in the list.
 
+
+The user shall be shown the values in the list that are being swapped as they step through the bubble sort algorithm. The user shall have the ability to step through individual steps of the bubble sort algorithm. 
+Details not shown to the user can include the particular code implementation (such as the list indices being tracked, the state of the `swapped` variable, and so forth).
+
 ### Algorithmic Thinking
 * **Input:** a list of integers.
 * **Output:** the same list of integers, now sorted in nondecreasing order.
