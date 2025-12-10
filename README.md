@@ -8,9 +8,11 @@ The bubble sort algorithm was selected because it offers a beginner-friendly int
 
 
 ### Sample Test Cases and Example Runs
+#### Example Run 1 and its Results
 ![SimulateBubbleSort - Example Run 1 Initialized](/SimulateBubbleSort_Example_Run_1.png)
 ![SimulateBubbleSort - Example Run 1 Finished](/SimulateBubbleSort_Example_Run_1_Finished.png)
 
+#### Example Run 2 and its Results
 ![SimulateBubbleSort - Example_Run_2_Initialized](/SimulateBubbleSort_Example_Run_2.png)
 ![SimulateBubbleSort - Example_Run_2_Finished](/SimulateBubbleSort_Example_Run_2_Finished.png)
 
