@@ -6,6 +6,14 @@ The bubble sort algorithm was selected because it offers a beginner-friendly int
 ## Demonstration Screenshot
 ![Bubble sort, visualized.](/SimulateBubbleSort_Visualization.png)
 
+
+### Sample Test Cases and Example Runs
+![SimulateBubbleSort - Example Run 1 Initialized](/SimulateBubbleSort_Example_Run_1.png)
+![SimulateBubbleSort - Example Run 1 Finished](/SimulateBubbleSort_Example_Run_1_Finished.png)
+
+![SimulateBubbleSort - Example_Run_2_Initialized](/SimulateBubbleSort_Example_Run_2.png)
+![SimulateBubbleSort - Example_Run_2_Finished](/SimulateBubbleSort_Example_Run_2_Finished.png)
+
 *Please note that we include further test cases in the Python file itself, prior to defining functions.*
 
 
